@@ -1,6 +1,6 @@
 package isp.example1.fixed;
 
-public class ManWorker implements Workable, Feedable{
+public class ManWorker implements Workable, Feedable {
     @Override
     public void eat() {
 

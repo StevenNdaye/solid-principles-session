@@ -11,7 +11,7 @@ public class Main {
         products.add(new Movie("NonStop", "Some guy"));
 
 
-        for(Product product: products){
+        for (Product product : products) {
             System.out.println(product.getName() + " : " + product.getAuthor());
         }
     }

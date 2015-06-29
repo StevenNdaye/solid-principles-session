@@ -5,7 +5,7 @@ public class Movie extends Product {
         super(name, author);
     }
 
-    public String getAuthor(){
+    public String getAuthor() {
         return "No author but an actor somewhere";
     }
 }
