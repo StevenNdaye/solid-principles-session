@@ -1,4 +1,4 @@
-package fixed;
+package srp.example2.fixed;
 
 import org.junit.Before;
 import org.junit.Test;

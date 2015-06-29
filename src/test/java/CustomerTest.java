@@ -1,4 +1,5 @@
 import org.junit.Test;
+import srp.example2.Customer;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package fixed;
+package srp.example2.fixed;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -18,11 +18,11 @@ public class CustomerTest {
     @Before
     public void setUp() throws Exception {
         accountHolders = new ArrayList<Customer>(){{
-            add(new Customer("Customer name"));
+            add(new Customer("srp.example2.Customer name"));
         }};
 
         account = new Account(new BigDecimal(500), accountHolders);
-        customer = new Customer("Customer name", account);
+        customer = new Customer("srp.example2.Customer name", account);
     }
 
     @Test
@@ -35,7 +35,7 @@ public class CustomerTest {
         customer.deductFromBalanceBy(new BigDecimal(200));
 
         Account expectedAccount = new Account(new BigDecimal(300), accountHolders);
-        Customer expectedCustomer = new Customer("Customer name", expectedAccount);
+        Customer expectedCustomer = new Customer("srp.example2.Customer name", expectedAccount);
 
         assertEquals(expectedCustomer, customer);
     }
